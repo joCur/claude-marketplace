@@ -1,0 +1,41 @@
+{
+  "name": "jonas-tools",
+  "owner": {
+    "name": "Jonas"
+  },
+  "plugins": [
+    {
+      "name": "research-plan-implement",
+      "source": "./",
+      "description": "Research Plan and Implement workflow",
+      "version": "1.0.0",
+      "author": {
+        "name": "Marcel & Jonas"
+      },
+      "commands": [
+        "./research-plan-implement/commands/research.md",
+        "./research-plan-implement/commands/plan.md",
+        "./research-plan-implement/commands/implement.md"
+      ]
+    },
+    {
+      "name": "useful-agents",
+      "source": "./",
+      "description": "Some useful subagents",
+      "version": "1.0.0",
+      "author": {
+        "name": "Marcel & Jonas"
+      },
+      "agents": [
+        "./agents/debug-specialist.md",
+         "./agents/devops-deployment-engineer.md",
+         "./agents/qa-test-automation-engineer.md",
+         "./agents/security-analyst.md",
+         "./agents/senior-backend-engineer.md",
+         "./agents/senior-frontend-engineer.md",
+         "./agents/dsystem-architect.md",
+         "./agents/ux-ui-designer.md"
+      ]
+    }
+  ]
+}
