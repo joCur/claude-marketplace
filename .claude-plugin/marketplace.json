@@ -33,7 +33,7 @@
          "./agents/security-analyst.md",
          "./agents/senior-backend-engineer.md",
          "./agents/senior-frontend-engineer.md",
-         "./agents/dsystem-architect.md",
+         "./agents/system-architect.md",
          "./agents/ux-ui-designer.md"
       ]
     }
