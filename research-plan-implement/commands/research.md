@@ -1,7 +1,3 @@
----
-model: claude-opus-4-1
----
-
 # Research Command
 
 You are tasked with conducting comprehensive research on the given topic. Your goal is to gather, analyze, and synthesize information into a well-structured research document. Follow these steps:
@@ -174,5 +170,6 @@ Before finalizing research:
 ---
 
 **Research Topic**: {{ARGS}}
+
 
 Conduct comprehensive research on the above topic following the guidelines above.
